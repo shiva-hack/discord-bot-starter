@@ -1,0 +1,30 @@
+{
+  "name": "discord-bot-starter",
+  "version": "1.0.0",
+  "description": "A skeleton repository for Discord.js projects.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:bot": "node bot.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shiva-hack/discord-bot-starter.git"
+  },
+  "author": "Shivam Dhruva",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shiva-hack/discord-bot-starter/issues"
+  },
+  "homepage": "https://github.com/shiva-hack/discord-bot-starter#readme",
+  "dependencies": {
+    "@discordjs/builders": "^0.8.2",
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "discord-api-types": "^0.24.0",
+    "discord.js": "^13.6.0",
+    "dotenv": "^10.0.0",
+    "node-fetch": "^3.2.5",
+    "prompt-sync": "^4.2.0"
+  }
+}
